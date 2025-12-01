@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "node ./node_modules/react-scripts/scripts/build.js"
   },
   "dependencies": {
     "@bull-board/api": "^6.14.2",
