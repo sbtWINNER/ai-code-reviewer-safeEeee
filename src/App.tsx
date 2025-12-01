@@ -1,0 +1,1 @@
+import React from 'react';\nexport default function App(){ return (<div style={{padding:20,fontFamily:'sans-serif'}}><h1>AI Code Reviewer</h1><p>Frontend UI placeholder</p></div>); }
