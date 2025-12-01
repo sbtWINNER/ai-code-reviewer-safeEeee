@@ -1,6 +1,6 @@
 import axios from "axios";
-import { config } from "../config/env.ts";
-import { buildSlackReviewMessage } from "./slack.message.ts";
+import { config } from "../config/env";
+import { buildSlackReviewMessage } from "./slack.message";
 
 export class SlackService {
   async postReviewResult({ repo, pr_number, result }) {

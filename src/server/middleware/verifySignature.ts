@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { Request, Response, NextFunction } from "express";
-import { config } from "../../config/env.ts";
+import { config } from "../../config/env";
 
 export function verifyGithubSignature(req: Request, res: Response, next: NextFunction) {
   const signature = req.headers["x-hub-signature-256"] as string;

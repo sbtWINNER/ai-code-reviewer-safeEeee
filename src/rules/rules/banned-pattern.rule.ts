@@ -1,4 +1,4 @@
-import { Rule } from "../rule.engine.ts";
+import { Rule } from "../rule.engine";
 
 export const bannedPatternRule: Rule = {
   id: "banned_pattern",

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.tsbuildinfo
+ai-code-reviewer-clean@1.0.0
+react-scripts
+tsconfig.tsbuildinfo

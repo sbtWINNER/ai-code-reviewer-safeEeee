@@ -1,7 +1,7 @@
 import express from "express";
-import { rawBodySaver } from "./middleware/rawBody.ts";
-import { githubWebhookRouter } from "./routes/github.webhook.ts";
-import { slackInteractionsRouter } from "./routes/slack.interactions.ts";
+import { rawBodySaver } from "./middleware/rawBody";
+import { githubWebhookRouter } from "./routes/github.webhook";
+import { slackInteractionsRouter } from "./routes/slack.interactions";
 
 const app = express();
 

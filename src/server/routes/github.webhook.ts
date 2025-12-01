@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { verifyGithubSignature } from "../middleware/verifyGithub.ts";
-import { GithubWebhookController } from "../controllers/github.controller.ts";
+import { verifyGithubSignature } from "../middleware/verifyGithub";
+import { GithubWebhookController } from "../controllers/github.controller";
 
 export const githubWebhookRouter = Router();
 

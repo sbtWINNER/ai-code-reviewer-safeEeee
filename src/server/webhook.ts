@@ -2,7 +2,7 @@ import express from "express";
 import crypto from "crypto";
 import { Queue } from "bullmq";
 import bodyParser from "body-parser";
-import { config } from "../config/env.ts";
+import { config } from "../config/env";
 
 const app = express();
 

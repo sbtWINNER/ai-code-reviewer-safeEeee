@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { Request, Response, NextFunction } from "express";
-import { config } from "../../config/env.ts";
+import { config } from "../../config/env";
 
 export function verifySlackSignature(
   req: Request,

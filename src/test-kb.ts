@@ -1,4 +1,4 @@
-import { KBService } from "./kb/kb.service.ts";
+import { KBService } from "./kb/kb.service";
 
 const kb = new KBService();
 

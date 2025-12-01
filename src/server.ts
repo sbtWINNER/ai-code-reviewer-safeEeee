@@ -3,7 +3,7 @@ import { Queue } from 'bullmq';
 import { createBullBoard } from '@bull-board/api';
 import { BullMQAdapter } from '@bull-board/api/bullMQAdapter'; // <-- используем адаптер
 import { ExpressAdapter } from '@bull-board/express';
-import { sendTelegramMessage } from './utils/telegram.ts';
+import { sendTelegramMessage } from './utils/telegram';
 
 const app = express();
 app.use(express.json());

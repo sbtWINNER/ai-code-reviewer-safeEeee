@@ -1,5 +1,5 @@
 import { getNextTask } from '../simpleQueue';
-import { sendTelegramMessage } from '../utils/telegram.ts';
+import { sendTelegramMessage } from '../utils/telegram';
 
 export const processTask = async () => {
   const task = getNextTask();

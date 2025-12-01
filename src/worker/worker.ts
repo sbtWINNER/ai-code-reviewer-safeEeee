@@ -1,11 +1,11 @@
 // src/worker/worker.ts
 import { Worker } from "bullmq";
-import { config } from "../config/env.ts";
-import { GithubService } from "../services/github.service.ts";
-import { AIService } from "../services/ai.service.ts";
-import { logger } from "../config/logger.ts";
-import { db } from "../services/db.ts";
-import { TelegramService } from "../services/telegram.service.ts";
+import { config } from "../config/env";
+import { GithubService } from "../services/github.service";
+import { AIService } from "../services/ai.service";
+import { logger } from "../config/logger";
+import { db } from "../services/db";
+import { TelegramService } from "../services/telegram.service";
 
 const github = new GithubService();
 const ai = new AIService();

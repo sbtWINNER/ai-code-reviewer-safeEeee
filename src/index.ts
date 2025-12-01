@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { sendTelegramMessage } from './utils/telegram.ts'; // твоя функция уведомлений
+import { sendTelegramMessage } from './utils/telegram'; // твоя функция уведомлений
 
 const app = express();
 app.use(express.json());

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { verifySlackSignature } from "../middleware/verifySlack.ts";
-import { SlackController } from "../controllers/slack.controller.ts";
+import { verifySlackSignature } from "../middleware/verifySlack";
+import { SlackController } from "../controllers/slack.controller";
 
 export const slackInteractionsRouter = Router();
 

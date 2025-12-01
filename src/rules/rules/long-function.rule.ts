@@ -1,4 +1,4 @@
-import { Rule } from "../rule.engine.ts";
+import { Rule } from "../rule.engine";
 
 export const longFunctionRule: Rule = {
   id: "long_function",
